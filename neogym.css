@@ -1,0 +1,68 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin: auto;
+}
+.navbar .logo a{
+    font-size: 27px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.navbar .menu{
+    margin: 0 9px;
+    display: flex;
+    position: relative;
+}
+.navbar .menu li{
+    list-style: none;
+    margin: 0 9px;
+    color: white;
+}
+.navbar .menu a{
+    font-weight: 500;
+    font-size: 27px;
+    text-decoration: none;
+    padding: 6px 0;
+    color: white;
+
+}
+.navbar .menu a:hover{
+    color: greenyellow;
+}
+.home{
+    background-attachment: scroll;
+    background-position: center;
+    background-image: url("contact-img.jpg");
+    background-size: cover;
+    width: 100%;
+}
+.home .home-content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    text-align: center;
+    font-size: 19px;
+}
+.home .text-two{
+    text-align: center;
+    font-size: 21px;
+
+}
+.home .text-three{
+    text-align: center;
+    font-size: 24px;
+}
+.home .text-four{
+    text-align: center;
+
+}
+.home .button button:hover{
+    color: black;
+}
